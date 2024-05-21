@@ -22,7 +22,3 @@ Welcome to the AisLSM open source project! This project is based on the Linux `i
    mkdir -p build && cd build
    cmake -DCMAKE_BUILD_TYPE=Release ..  -DWITH_SNAPPY=1 &&  cmake --build .
 
-## Note
-1. On GitHub, you'll find different branches. Each branch corresponds to a different variant of AisLSM as mentioned in the paper.
-
-2. It's essential to note that the polling version of the project can only run properly on NVMe drives.
